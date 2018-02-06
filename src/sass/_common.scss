@@ -1,0 +1,98 @@
+html,
+body {
+    font-family: $defaultFont;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+hr {
+    clear: both;
+}
+
+#app {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js,
+canvas {
+    //	z-index: 1;
+}
+
+.btn {
+    border: 0;
+    width: 110px;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.cursive {
+    font-family: $cursiveFont;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 35px auto;
+    height: 100%;
+    padding: 0 10px;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    a {
+        font-size: 50px;
+        padding: 10px;
+    }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+}
+
+@media (max-width: 479px) {
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}

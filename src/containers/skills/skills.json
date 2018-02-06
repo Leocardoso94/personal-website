@@ -1,0 +1,79 @@
+[
+    {
+        "name": "HTML",
+        "classIcon": "devicon-html5-plain-wordmark",
+        "value": "95",
+        "bgColor": "#e54d26",
+        "fontColor": "#FFF"
+    },
+    {
+        "name": "Sass/Css",
+        "classIcon": "devicon-sass-original colored",
+        "value": "80",
+        "bgColor": "#036",
+        "fontColor": "#c6538c"
+    },
+    {
+        "name": "JavaScript",
+        "classIcon": "devicon-javascript-plain ",
+        "value": "83",
+        "bgColor": "#e5bb31",
+        "fontColor": "#fff"
+    },
+    {
+        "name": "Vue.js",
+        "classIcon": "devicon-vuejs-plain ",
+        "value": "65",
+        "bgColor": "#34495e",
+        "fontColor": "#4fc08d"
+    },
+    {
+        "name": "PHP",
+        "classIcon": "devicon-php-plain colored",
+        "value": "40",
+        "bgColor": "#4f5b93",
+        "fontColor": "#fff"
+    },
+    {
+        "name": "Java",
+        "classIcon": "devicon-java-plain-wordmark",
+        "value": "55",
+        "bgColor": "#e00000",
+        "fontColor": "#fff"
+    },
+    {
+        "name": "MySQL",
+        "classIcon": "devicon-mysql-plain ",
+        "value": "70",
+        "bgColor": "#4479a1",
+        "fontColor": "#FFF"
+    },
+    {
+        "name": "Oracle",
+        "classIcon": "devicon-oracle-original ",
+        "value": "65",
+        "bgColor": "#f80000",
+        "fontColor": "#fff"
+    },
+    {
+        "name": "NodeJS",
+        "classIcon": "devicon-nodejs-plain-wordmark colored",
+        "value": "65",
+        "bgColor": "#333",
+        "fontColor": "#43853d"
+    },
+    {
+        "name": "Git",
+        "classIcon": "devicon-git-plain-wordmark colored",
+        "value": "70",
+        "bgColor": "#f0f0e8",
+        "fontColor": "#413932"
+    },
+    {
+        "name": "React",
+        "classIcon": "devicon-react-original colored",
+        "value": "70",
+        "bgColor": "#222",
+        "fontColor": "#fff"
+    }
+]

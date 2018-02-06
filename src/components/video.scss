@@ -1,0 +1,15 @@
+.video {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    right: 0; // background: url('./../images/beer.jpg') no-repeat;
+    background-size: cover;
+    opacity: .8;
+    @media (max-width: 1300px) {
+        right: auto
+    }
+}

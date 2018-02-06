@@ -1,0 +1,37 @@
+#Projetos {
+    position: relative;
+    .box-project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0;
+        position: relative;
+        li {
+            list-style-type: none;
+            margin: 10px;
+            font-weight: bold;
+            width: 150px;
+            h3 {
+                display: block;
+                height: 50px;
+            }
+            .project-icon {
+                border-radius: 50%;
+                width: 100%;
+                cursor: pointer;
+                height: 150px;
+                box-shadow: 0px 10px 10px rgba(2, 2, 2, 0.36);
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+    @media (max-width: 720px) {
+        .box-project li {
+            width: 125px;
+            .project-icon {
+                height: 125px;
+            }
+        }
+    }
+}
