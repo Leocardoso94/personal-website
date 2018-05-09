@@ -1,57 +1,10 @@
 #Contato {
     width: 100%;
     overflow: hidden;
-    form {
-        width: 65%;
-        float: left;
-        text-align: center; //  margin: 20px auto;
-        input,
-        textarea,
-        button {
-            border: 0;
-            font-family: $defaultFont;
-            outline: 0;
-            padding: 25px;
-            ;
-            -moz-border-radius: 3px;
-            -webkit-border-radius: 3px;
-            border-radius: 3px;
-            display: block;
-            width: 100%;
-            margin-top: 1em;
-            -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-            resize: none;
-        }
-        button {
-            background-color: #fff;
-            font-size: 18px;
-            text-transform: uppercase;
-            width: 60%;
-            margin: auto;
-        }
-        textarea {
-            height: 230px;
-        }
-    }
-    .left {
-        margin-right: 2%;
-    }
-    .half {
-        float: left;
-        width: 48%;
-        margin-bottom: 1em;
-        .left {
-            margin-right: 2%;
-        }
-        .right {
-            width: 50%;
-        }
-    }
+
     .infos {
-        width: 35%;
-        float: right;
+        width: 60%;
+        margin: 0 auto;
         .icons a {
             font-size: 65px;
         }
