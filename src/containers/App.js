@@ -5,7 +5,7 @@ import Projects from './projects/Projects';
 import About from './about/About';
 import Menu from './menu/Menu';
 import Skills from './skills/Skills';
-import Video from './../components/Video';
+import './app.css';
 
 const App = () => (
 
@@ -16,7 +16,6 @@ const App = () => (
     <Skills />
     <Projects />
     <Footer />
-    <Video />
   </div>
 
 );

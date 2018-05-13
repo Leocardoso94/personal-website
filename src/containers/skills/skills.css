@@ -1,0 +1,29 @@
+#Habilidades .skills-container {
+  width: 98%;
+}
+
+#Habilidades .skill {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgba(2, 2, 2, 0.36);
+}
+
+#Habilidades p {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 10px 0px 15px 0px rgba(0, 0, 0, 0.33);
+}
+
+#Habilidades p i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+#Habilidades p span {
+  position: absolute;
+  top: 35%;
+  left: 70px;
+}

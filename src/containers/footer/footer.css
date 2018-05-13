@@ -1,0 +1,37 @@
+#Contato {
+  width: 100%;
+  overflow: hidden;
+}
+
+#Contato .infos {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#Contato .icons a {
+  font-size: 65px;
+}
+
+#Contato footer {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  height: 60px;
+  padding-top: 17px;
+  box-shadow: 0px -10px 10px rgba(2, 2, 2, 0.36);
+}
+
+@media (max-width: 830px) {
+  #Contato form,
+  #Contato .infos,
+  #Contato .icons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  #Contatos .infos .icons a {
+    font-size: 50px;
+  }
+}

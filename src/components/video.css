@@ -1,0 +1,18 @@
+.video {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  right: 0; 
+  background-size: cover;
+  opacity: .8;
+}
+
+@media (max-width: 1300px) {
+  .video {
+    right: auto
+  }
+}
