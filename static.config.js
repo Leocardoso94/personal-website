@@ -1,13 +1,9 @@
 import React from 'react';
 
 export default {
-  getSiteData: () => ({
-    title: 'React Static',
-  }),
-  Document: (props) => {
-    const {
-      Html, Head, Body, children, renderMeta
-    } = props;
+  Document: ({
+    Html, Head, Body, children, renderMeta
+  }) => {
     const script1 = 'https://www.googletagmanager.com/gtag/js?id=UA-108748352-1';
     const script2 =
         `
