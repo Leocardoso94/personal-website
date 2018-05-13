@@ -28,7 +28,7 @@ export default {
           <meta name="author" content="Leonardo Cardoso" />
           <meta
             name="description"
-            content="Leonardo Cardoso é um desenvolverdor/programador com foco em aplicações Web"
+            content="Leonardo Cardoso é um desenvolvedor apaixonado por JavaScript, Node, React, Vue, PHP, Programação funcional, Machine Learning e outras milhares de coisas."
           />
           <title>Leonardo Cardoso</title>
           {renderMeta.styleTags}
