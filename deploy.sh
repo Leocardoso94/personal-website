@@ -16,7 +16,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 # entre na pasta onde está o build do seu projeto e inicie um novo repositório git
-cd public
+cd dist
 git init
 
 # inside this git repo we'll pretend to be a new user
