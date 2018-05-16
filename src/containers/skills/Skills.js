@@ -17,7 +17,7 @@ const Skills = () => (
             bgColor={item.bgColor}
             fontColor={item.fontColor}
           />
-	))}
+))}
       </div>
     </div>
   </div>

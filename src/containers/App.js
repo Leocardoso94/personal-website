@@ -5,6 +5,7 @@ import Projects from './projects/Projects';
 import About from './about/About';
 import Menu from './menu/Menu';
 import Skills from './skills/Skills';
+import Articles from './articles';
 import './app.css';
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
     <Menu />
     <Home />
     <About />
+    <Articles />
     <Skills />
     <Projects />
     <Footer />
