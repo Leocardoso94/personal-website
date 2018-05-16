@@ -2,9 +2,6 @@ import React from 'react';
 import skills from './skills.json';
 import './skills.css';
 
-skills.sort(() => 0.5 - Math.random());
-
-
 const Skills = () => (
   <div id="Habilidades">
     <div className="container">
