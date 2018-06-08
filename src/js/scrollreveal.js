@@ -1,4 +1,3 @@
-
 let ScrollReveal;
 
 if (typeof document !== 'undefined') {
@@ -7,7 +6,7 @@ if (typeof document !== 'undefined') {
 
   // Customizing a reveal set
   setTimeout(() => {
-    window.sr = ScrollReveal({
+    const sr = ScrollReveal({
       reset: true
     });
     sr.reveal('.skill', {
@@ -22,7 +21,7 @@ if (typeof document !== 'undefined') {
     sr.reveal('.icons a', {
       duration: 1000
     }, 20);
-    sr.reveal('input, textarea, form .btn', {
+    sr.reveal('.articles__list__item', {
       duration: 1000
     }, 50);
   }, 1);

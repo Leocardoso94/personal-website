@@ -1,17 +1,21 @@
 .articles__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .articles__list__item {
-    width: 300px;
-    display: block;     
-    text-align: center;
+  width: 300px;
+  display: block;
+  text-align: center;
 }
 
 .articles__list__item img {
-    width: 100%;
-    /* border-radius: 50%; */
-    border: 1px solid black;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.articles__list__item--title {
+  color: black;
 }
