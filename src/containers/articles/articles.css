@@ -8,12 +8,14 @@
   width: 300px;
   display: block;
   text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
 }
 
 .articles__list__item img {
   width: 100%;
-  border-radius: 30px;
-  border: 1px solid black;
 }
 
 .articles__list__item--title {
