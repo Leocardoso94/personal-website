@@ -104,6 +104,10 @@
     top: 11px;
     left: 11px;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    height: 30px;
   }
   #navbar .button .bar {
     display: block;
