@@ -1,18 +1,18 @@
-#Contato {
+#Contact {
   width: 100%;
   overflow: hidden;
 }
 
-#Contato .infos {
+#Contact .infos {
   width: 60%;
   margin: 0 auto;
 }
 
-#Contato .icons a {
+#Contact .icons a {
   font-size: 65px;
 }
 
-#Contato footer {
+#Contact footer {
   background-color: #fff;
   width: 100%;
   text-align: center;
@@ -23,15 +23,15 @@
 }
 
 @media (max-width: 830px) {
-  #Contato form,
-  #Contato .infos,
-  #Contato .icons {
+  #Contact form,
+  #Contact .infos,
+  #Contact .icons {
     width: 100%;
   }
 }
 
 @media (max-width: 380px) {
-  #Contatos .infos .icons a {
+  #Contacts .infos .icons a {
     font-size: 50px;
   }
 }

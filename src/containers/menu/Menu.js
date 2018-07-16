@@ -19,21 +19,21 @@ const Menu = () => (
   <nav id="navbar">
     <ul className="menu">
       <li>
-        <a href="#Sobre"> Sobre</a>
+        <a href="#About"> About</a>
       </li>
       <li>
-        <a href="#Habilidades"> Habilidades</a>
+        <a href="#Articles"> Articles</a>
       </li>
       <li>
         <a className="icon cursive" href="#home">
-            Léo
+          Léo
         </a>
       </li>
       <li>
-        <a href="#Projetos"> Projetos</a>
+        <a href="#Projects"> Projects</a>
       </li>
       <li>
-        <a href="#Contato"> Contato</a>
+        <a href="#Contact"> Contact</a>
       </li>
     </ul>
     <div className="menu-hamburguer">
@@ -41,24 +41,24 @@ const Menu = () => (
         className="button"
         id="menuButton"
         onClick={() => {
-            const list = document.getElementById('list');
-            const menuButton = document.getElementById('menuButton');
+          const list = document.getElementById('list');
+          const menuButton = document.getElementById('menuButton');
 
-            if (list.className === 'list swing-in-top-fwd') {
-              list.className = 'list swing-out-top-bck';
-              menuButton.className = 'button';
-            } else {
-              menuButton.className = 'button menuActive';
-              list.className = 'list swing-in-top-fwd';
-            }
-          }}
+          if (list.className === 'list swing-in-top-fwd') {
+            list.className = 'list swing-out-top-bck';
+            menuButton.className = 'button';
+          } else {
+            menuButton.className = 'button menuActive';
+            list.className = 'list swing-in-top-fwd';
+          }
+        }}
       >
         <span className="bar" id="bar1" />
         <span className="bar" id="bar2" />
         <span className="bar" id="bar3" />
       </button>
       <a className="icon cursive text-center" href="#home">
-          Léo
+        Léo
       </a>
     </div>
     <ul id="list" className="list swing-out-top-bck">

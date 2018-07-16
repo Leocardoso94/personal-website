@@ -3,10 +3,12 @@ import SocialIcons from './../../components/SocialIcons';
 import './footer.css';
 
 const Footer = () => (
-  <div id="Contato">
+  <div id="Contact">
     <div className="container">
-      <h1 className="cursive text-center">Contato</h1>
-      <h3 className="text-center">Caso tenha interrese em trabalhar comigo, aqui estão as formas de entrar em contato:</h3>
+      <h1 className="cursive text-center">Contact</h1>
+      <h3 className="text-center">
+        If you are interested in talking to me, here are ways to get in touch:
+      </h3>
       <div className="infos">
         <SocialIcons />
       </div>

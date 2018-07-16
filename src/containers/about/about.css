@@ -1,4 +1,5 @@
-#Sobre .section-description {
+#About .section-description {
   width: 90%;
   text-align: justify;
+  max-width: 800px;
 }

@@ -19,7 +19,7 @@ const ArtigosList = ({ articles }) =>
     </li>
   ));
 
-export default class extends React.Component {
+export default class Articles extends React.Component {
   state = {
     articles: []
   };
@@ -29,10 +29,10 @@ export default class extends React.Component {
   };
   render() {
     return (
-      <div id="Artigos">
+      <div id="Articles">
         <div className="container">
-          <h1 className="text-center cursive">Artigos</h1>
-          <h4 className="text-center">Alguns artigos já publicados:</h4>
+          <h1 className="text-center cursive">Articles</h1>
+          <h4 className="text-center">My last published Articles on Medium</h4>
           <br />
           <ul className="articles__list">
             <ArtigosList articles={this.state.articles} />
