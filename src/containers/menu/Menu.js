@@ -63,16 +63,16 @@ const Menu = () => (
     </div>
     <ul id="list" className="list swing-out-top-bck">
       <li>
-        <a href="#Sobre"> Sobre</a>
+        <a href="#About"> About</a>
       </li>
       <li>
-        <a href="#Habilidades"> Habilidades</a>
+        <a href="#Articles"> Articles</a>
       </li>
       <li>
-        <a href="#Projetos"> Projetos</a>
+        <a href="#Projects"> Projects</a>
       </li>
       <li>
-        <a href="#Contato"> Contato</a>
+        <a href="#Contact"> Contact</a>
       </li>
     </ul>
   </nav>
