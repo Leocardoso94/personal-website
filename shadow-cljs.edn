@@ -1,0 +1,19 @@
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "0.8.1"]
+  [re-frame "0.10.6"]
+  [cider/cider-nrepl "0.21.0"]
+  [clj-commons/cljss "1.6.4"]
+  [binaryage/devtools "0.9.10"]]
+
+ :builds
+ {:app
+  {:target :browser
+   :modules {:main {:init-fn site.core/init}}
+   :devtools
+   {:http-root "public"
+    :http-port 3000
+    :after-load site.core/render
+    :preloads   [devtools.preload]}}}}

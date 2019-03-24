@@ -1,11 +1,23 @@
-# My site
+# Personal website
 
-This site is the most basic version of react-static available. It includes:
-- Babel
-- SASS/SCSS imports
-- Image imports
-- File imports
-- SASS Loader
-- Automatic Routing
+## Development Mode
 
-To get started, run `react-static create` and use the `sass` template.
+### Run application:
+
+```
+yarn 
+yarn start
+```
+
+Shadow-cljs will automatically push cljs changes to the browser.
+
+Wait a bit, then browse to [http://localhost:3000](http://localhost:3000).
+
+## Production Build
+
+
+To compile clojurescript to javascript:
+
+```
+yarn build
+```
