@@ -1,32 +1,18 @@
 {
-  "name": "react-static-example-basic",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "site",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
-  },
-  "dependencies": {
-    "devicon": "^2.0.0",
-    "font-awesome": "^4.7.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router": "^4.2.0",
-    "react-static": "^5.8.1",
-    "scrollreveal": "^3.4.0"
+    "start": "npx shadow-cljs watch app",
+    "build": "npx shadow-cljs release app"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "serve": "^6.1.0"
+    "shadow-cljs": "2.8.8"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "create-react-class": "^15.6.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   }
 }
