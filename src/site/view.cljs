@@ -62,8 +62,9 @@
 (defn ocuppation
   []
   [:h3.fw1.mt1.mb4 
-      "Co-Founder"
-      [:a {:href "https://oiluna.com"} "Luna"]])
+      "Co-Founder "
+      [:a {:href "https://oiluna.com"
+           :style  {:color "#fff"}} "Luna"]])
 
 
 (defn avatar
