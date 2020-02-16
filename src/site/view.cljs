@@ -61,51 +61,17 @@
 
 (defn ocuppation
   []
-  [:h3.fw1.mt1.mb4 "Software Engineer 👨🏽‍💻"])
+  [:h3.fw1.mt1.mb4 
+      "Co-Founder"
+      [:a {:href "https://oiluna.com"} "Luna"]])
 
 
 (defn avatar
   []
-  (r/create-class
-    {:component-did-mount (fn []
-                            (-> anime
-                                (.timeline #js {:loop false})
-                                (.add (clj->js {:targets    ".avatar"
-                                                :easing     "easeInOutSine"
-                                                :translateX [-150 200]
-                                                :duration   2000}))
-                                (.add (clj->js {:targets    ".avatar"
-                                                :easing     "easeInOutSine"
-                                                :translateX -50
-                                                :duration   2000
-                                                :delay      100}))
-                                (.add (clj->js {:targets    ".avatar"
-                                                :easing     "easeInOutSine"
-                                                :translateX 0
-                                                :duration   1500
-                                                :delay      100})))
-                            (-> anime
-                                (.timeline #js {:loop false})
-                                (.add (clj->js {:targets  ".avatar img"
-                                                :easing   "easeInOutSine"
-                                                :rotate   150
-                                                :duration 2000}))
-                                (.add (clj->js {:targets  ".avatar img"
-                                                :easing   "easeInOutSine"
-                                                :rotate   -150
-                                                :duration 2000
-                                                :delay    100}))
-                                (.add (clj->js {:targets  ".avatar img"
-                                                :easing   "easeInOutSine"
-                                                :rotate   0
-                                                :duration 1500
-                                                :delay    100}))))
-     :reagent-render
-     (fn []
-       [:div.avatar
-        [:img.flex-auto.br-100.w4.h4.ba.b--white.bw2
-         {:src
-          "https://avatars0.githubusercontent.com/u/12713314?v=4&u=7964a9e94cac2f5b35869a8cc263273cb9e1be30&s=400"}]])}))
+  [:div.avatar
+  [:img.flex-auto.br-100.w4.h4.ba.b--white.bw2
+    {:src
+    "https://avatars0.githubusercontent.com/u/12713314?v=4&u=7964a9e94cac2f5b35869a8cc263273cb9e1be30&s=400"}]])  
 
 (defn username
   []
